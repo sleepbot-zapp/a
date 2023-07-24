@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- <div class="flex">
+    <Topbar/>
+</div>
+<button class="btn">Button</button>
+<Top/> -->
+<Button/>
+
+<script>
+    import Topbar from "../components/topbar.svelte";
+    import Top from "../components/top.svelte";
+    import Button from "../components/button.svelte"
+</script>
